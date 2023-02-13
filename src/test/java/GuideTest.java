@@ -57,6 +57,7 @@ public class GuideTest {
         String actual = g.guideMethod(inputMessage);
         System.out.println("Expected: "+expected);
         System.out.println("Actual: "+actual);
+
         Assert.assertEquals(expected, actual);
 
     }
